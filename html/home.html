@@ -1,0 +1,49 @@
+<h3>home.html</h3>
+<h2>plainfame CMS</h2>
+Das webCMS plainfame entstand anno 2012 quasi als Nebenprodukt meiner damaligen Arbeit, um ein leichtgewichtiges, schnell anpassbares CMS zur Hand zu haben.<br />
+Natürlich gibt es für die verschiedenen features unterschiedliche Herangehensweisen. Ziel bei der Entwicklung ist es hier, einen Tradeoff zwischen einfachster und bester Lösung zu finden.<br />
+<br />
+Folgende Konzepte wurden umgesetzt:
+<ul>
+  <li>lightweight bedeutet wenig Balast
+    <ul>
+      <li>keine Datenbank nötig</li>
+      <li>das CMS funktioniert ohne Cookies (und damit ohne Session)</li>
+      <li>keine Klassenhierarchie, sondern one-purpose prozeduraler Code</li>
+    </ul>
+  </li>
+  <li>Keep it simple: es gibt keine &quot;globale&quot; Variablen: Jedes Modul hat seinen eigenen scope</li>
+  <li>leicht zu konfigurieren 
+  </li>
+</ul>
+<br />
+
+Das CMS ist wie erwähnt modular aufgebaut. Jede Seite kann entweder reines HTML oder PHP-Code sein<br />
+Als Appetithappen sind folgende Module gleich an Bord:<br />
+<ul>
+  <li>Verwaltung von Unterseiten mit Tabs (jQuery)</li>
+  <li>Kontaktformular (HTML5, PHP)</li>
+  <li>Rating Modul, mit dem z.B. über Bilder oder Meinungen abgestimmt werden kann (jQuery, PHP)</li>
+  <li>Geschachteltes Karusell für Bilder (jQuery)</li>
+  <li>Laden von Tabellen aus CSV-Dateien (PHP)</li>
+</ul>
+
+<h3>Weitere features</h3>
+<ol>
+  <li>Oberes Menü fixiert sich beim Scrollen (funktioniert ohne Javascript)</li>
+  <li>Eingebettete Schriftart <a href="http://en.wikipedia.org/wiki/Open_Sans" target="_blank">Open Sans</a></li>
+  <li>Modularer Aufbau, jede Seite kann entweder reines HTML oder PHP-Code sein</li>
+  <li>Für die Auswahl der jeweiligen Sprache wird die Sprachpräferenz im Browser verwendet</li>
+  <li>Inhaltsdateien OHNE Länderkennung wird als Fallback genutzt, falls 
+  eine Inhaltsdatei mit Länderkennung angefragt wird, diese aber nicht existiert</li>
+</ol>
+
+<h3>Installation/Konfiguration</h3>
+<ol>
+  <li>Alle Dateien in den htdocs Ordner ablegen</li>
+  <li>Unterseiten in pagedata.php eintragen (unter Umständen zweisprachig)</li>
+  <li>Impressum anpassen</li>
+  <li>Für Kontakt: Emailadressen anpassen</li>
+  <li>Für Votes: Der data-Ordner muss für PHP Schreibrechte haben</li>
+</ol>
+
