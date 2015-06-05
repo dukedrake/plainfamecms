@@ -35,7 +35,7 @@ initial version by R.Voigt 2012-2015
   $checkfallback = false;
   if     (                   !file_exists('html/'.$query.$filelang.'.html') && !file_exists('html/'.$query.$filelang.'.php') )     $checkfallback = true;
   
-  if ($checkfallback) echo "fallback...";
+
 	// check for corrupt query or load fallback version
   if     ( $checkfallback && (file_exists('html/'.$query.'.html')          || file_exists('html/'.$query.'.php') )         )     $filelang = '';
   elseif ( $checkfallback )  $query = "home";
