@@ -46,8 +46,8 @@
 <div class="tabcontainer">
   <div class="tabcontent" id="tab-wg1"  style="display: block; padding-top: 10px;">
   <h3>Viewportgrößen, CSV</h3>
-  
   <table class="comptable">
+  
 
 <?php
   $linedelim = "\n";
@@ -58,10 +58,9 @@
   $tablehead = printTable($csvdata);
 
   
-  
 	echo '
-    <div style="font-size: 10px">Stupid-table-plugin by <a href="http://joequery.github.io/Stupid-Table-Plugin/" target="_blank">joequery</a></div>
-    <div style="font-size: 10px">Data by <a href="http://viewportsizes.com/" target="_blank">viewportsizes.com</a></div>
+    <div style="font-size: 10px">table-sort-plugin by <a href="http://joequery.github.io/Stupid-Table-Plugin/" target="_blank">joequery</a></div>
+    <div style="font-size: 10px">Data by <a href="http://viewportsizes.com/" target="_blank">Matt Stow, viewportsizes.com</a></div>
 
   </div>
   
@@ -78,8 +77,8 @@
 
 
   echo '
-    <div style="font-size: 10px">Stupid-table-plugin by <a href="http://joequery.github.io/Stupid-Table-Plugin/" target="_blank">joequery</a></div>
-    <div style="font-size: 10px">Data by <a href="http://viewportsizes.com/" target="_blank">viewportsizes.com</a></div>
+    <div style="font-size: 10px">table-sort-plugin by <a href="http://joequery.github.io/Stupid-Table-Plugin/" target="_blank">joequery</a></div>
+    <div style="font-size: 10px">Data by <a href="http://viewportsizes.com/" target="_blank">Matt Stow, viewportsizes.com</a></div>
   </div>
   
   

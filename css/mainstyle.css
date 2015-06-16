@@ -91,7 +91,7 @@ a {
   transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-a:hover{
+a:hover {
 	color: #FFB74C;
   text-shadow: -1px -1px 0 #111111;
 }
@@ -222,7 +222,8 @@ ul.nav, ul.nav li {margin:0;padding:0}
 }
 
 
-.nav li a:hover {
+.nav li a:hover, .nav li a.active {
+  color: #FFB74C;
   text-shadow: -1px -1px 0 #111111, -2px -3px 0px #D89941, -4px -3px 0px #C1893A, -6px -3px 0px #A87732, -8px -3px 0px #93682C;
 }
 /** NAVIGATION TOP MENU - ENDE **/

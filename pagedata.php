@@ -68,9 +68,9 @@
 	$pageDataDE['githome']['url']			= "https://github.com/dukedrake/plainfamecms"; 
 
 	$pageDataDE['kontakt']['type'] 				= "bottom";
-	$pageDataDE['kontakt']['title'] 			= "Details zum Projekt";
-	$pageDataDE['kontakt']['linkname'] 			= "Details";
-	$pageDataDE['kontakt']['linkdesc']			= "Hier finden Sie mehr Details";
+	$pageDataDE['kontakt']['title'] 			= "Kontakt";
+	$pageDataDE['kontakt']['linkname'] 			= "Kontakt";
+	$pageDataDE['kontakt']['linkdesc']			= "Hier können Sie Feedback zum Projekt geben";
 
 	$pageDataDE['impressum']['type'] 				= "bottom";
 	$pageDataDE['impressum']['title'] 			= "Impressum";
